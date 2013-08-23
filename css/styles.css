@@ -1,0 +1,276 @@
+a{
+	text-decoration: none;
+	color: #deb406;
+}
+
+#main_wrapper {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#main_wrapper h1{
+	color: #FEFFFF;
+	padding: 5px;
+	margin: 0px;
+	margin-top: 14px;
+}
+
+#login_wrapper{
+	margin: 0 auto;
+	
+}
+
+#add_view_header_wrapper{
+	height: 60px;
+	display: block;
+}
+
+#add_view_option_wrapper{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: block;
+}
+
+#view_button_wrapper{
+	width: 50%;
+	float: left;
+	text-align: center;
+	display: block;
+}
+
+#add_button_wrapper{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+#login_table{
+	margin: 0 auto;
+}
+
+#login_table h2{
+	text-align: left;
+}
+
+#registration_table{
+	margin: 0 auto;
+}
+
+.text_box{
+	border-radius: 5px;
+}
+
+input[type=text]{
+	border-radius: 5px;
+}
+
+input[type=password]{
+	border-radius: 5px;
+}
+
+select{
+	border-radius: 5px;
+}
+
+input[type=submit], input[type=button]{
+	width: 100px;
+	margin: 0 auto;
+	border-radius: 12px;
+	margin-top: 10px;
+	display: block;
+}
+
+.text_center{
+	text-align: center;
+}
+
+#header_welcome_message{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#header_welcome_message .welcome_message{
+	text-align: center;
+	font-weight: 100;
+	font-size: xx-large;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+#header_welcome_message .compliment{
+	text-align: center;
+	margin: 5px;
+	display: block;
+}
+
+#header_home_section{
+	width: 150px;
+	top: 95px;
+	left: 0px;
+	position: absolute;
+}
+
+#header_home_section a{
+	width: 100px;
+	margin-left: 15px;
+	display: block;
+}
+
+#header_logout_section{
+	width: 100%;
+	top: 95px;
+	left: 0px;
+	position: absolute;
+}
+
+#header_logout_section input{
+	margin-left: auto;
+	margin-right: 15px;
+	display: block;
+}
+
+#register_link{
+	text-align: right;
+	display:block;
+}
+
+
+
+.input_label{
+	font-weight: bold;
+	display: block;
+	text-align: left;
+}
+
+.error{
+	position: absolute;
+	display: inline;
+	color: #FF0000;
+}
+
+.div_button{
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: x-large;
+	color: #feffff;
+	width: 250px;
+	background: url(../images/button_bg.png);
+	display: block;
+}
+
+.div_button:hover{
+	color: #deb406;
+}
+
+#back_banner{
+	width: 100%;
+	height: 50px;
+	top: 90px;
+	left: 0px;
+	background: url(../images/button_bg.png);
+	position: absolute;
+	z-index: -1;
+}
+
+#party_add_form_table{
+	display: table;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.party_add_button{
+	margin: 0 auto;
+	display: block;
+}
+
+.half_width_button_holder{
+	width: 50%;
+	float: left;
+}
+
+.clear_float
+{
+	clear: float;
+}
+
+.party_row{
+	margin-top: 10px;
+	width: 720px;
+	height: 160px;
+	float: left;
+	display: inline;
+}
+
+.party_row .party_block{
+	width: 240px;
+	height: 160px;
+	float: left;
+	display: inline;
+}
+
+.party_row .party_block table{
+	width: 230px;
+	height: 100%;
+	border: solid 1px;
+	border-radius: 5px;
+	display: table;
+	margin: 0 auto;
+}
+
+.party_row .attendees_cover{
+	position: absolute;
+	background-color: #075588;
+	color: #FEFFFF;
+	border-radius: 5px;
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=95);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.95;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.95;
+	
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.95;
+	
+	top: inherit;
+	left: inherit;
+	width: inherit;
+	height: inherit;
+	display: none;
+}
+
+.party_row .attendees_cover .attendees_cover_header{
+	background-color: #1d7bba;
+	position: absolute;
+	width: 100%;
+	height: 20px;
+}
+
+.party_row .attendees{
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	bottom: 0px;
+	overflow-y: scroll;
+}
+
+.party_row .attendees .attendee{
+	margin-left: 10px;
+}
+
+.party_row .party_block .label_column{
+	width: 90px;
+	background-color: #075588;
+	color: #FEFFFF;
+}
+
